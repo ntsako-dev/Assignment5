@@ -10,19 +10,26 @@ public class RunMain
     public static void main(String[]args) throws CloneNotSupportedException
     {
         //singleton instance.
-         Singleton sin1 = Singleton.getInstance();
-         sin1.showMessage();
+        // Singleton sin1 = Singleton.getInstance();
+       //  sin1.showMessage();
 
        // Abstact factory implement
-         AbstractFactory ab = new AbstractFactory();
-         ab.testFactory();
+       //  AbstractFactory ab = new AbstractFactory();
+       //  ab.testFactory();
 
          //ProtoType
-        Prototype pt = new Prototype();
-        pt.testClone();
+      //  Prototype pt = new Prototype();
+      //  pt.testClone();
 
         //Visitor
-        Visitor visitor = new Visitor();
+     //   Visitor visitor = new Visitor();
+
+        //AdaptorTest
+       // Adaptor adapt = new Adaptor();
+
+        Bridge bridge = new Bridge();
+        bridge.main();
+
 
     }
 

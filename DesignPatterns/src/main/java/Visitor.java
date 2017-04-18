@@ -76,11 +76,7 @@ public class Visitor
     }
 
 
-
-
-
-
-    public class TShirt implements ItemElement
+    private class TShirt implements ItemElement
     {
 
         private String name;
@@ -127,12 +123,7 @@ public class Visitor
     }
 
 
-
-
-
-
-
-    public class ShoppingCartVisitorImpl implements ShoppingCartVisitor
+    protected class ShoppingCartVisitorImpl implements ShoppingCartVisitor
     {
 
         @Test
